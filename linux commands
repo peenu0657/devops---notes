@@ -1,0 +1,209 @@
+# 🐧 Linux
+
+## Definition
+
+Linux is a free and open-source operating system that manages computer hardware and software. It acts as a bridge between the user and the computer.
+
+---
+
+## Why is Linux Used?
+
+- Free and open source
+- Secure
+- Fast
+- Stable
+- Reliable
+- Easy to customize
+- Supports multiple users
+- Used for servers and cloud computing
+
+---
+
+## Uses of Linux
+
+- Web Servers
+- Cloud Computing
+- DevOps
+- Software Development
+- Cybersecurity
+- Android Operating System
+- Embedded Systems
+- Supercomputers
+
+---
+
+## Advantages
+
+- Free to use
+- Open source
+- High security
+- Better performance
+- Stable
+- Lightweight
+- Multi-user
+- Multitasking
+
+---
+
+## Disadvantages
+
+- Learning curve for beginners
+- Some software is not available
+- Limited gaming support
+
+---
+
+## Key Points
+
+- Linux is an Operating System.
+- Developed in 1991.
+- Created by Linus Torvalds.
+- Mostly used on servers.
+- Popular in DevOps and Cloud Computing.
+
+# Show current directory
+pwd
+
+# List files and folders
+ls
+
+# List detailed files
+ls -l
+
+# List hidden files
+ls -a
+
+# List all files with details
+ls -la
+
+# Go to home directory
+cd ~
+
+# Create a folder
+mkdir Linux
+
+# Move into the folder
+cd Linux
+
+# Check current directory
+pwd
+
+# Create a file
+touch file1.txt
+
+# Create multiple files
+touch file2.txt file3.txt
+
+# List files
+ls
+
+# Open and display a file
+cat file1.txt
+
+# Write text into a file (overwrites existing content)
+echo "Hello Linux" > file1.txt
+
+# Display the file
+cat file1.txt
+
+# Add more text to the file
+echo "Welcome to DevOps" >> file1.txt
+
+# Display the updated file
+cat file1.txt
+
+# Copy a file
+cp file1.txt copy.txt
+
+# Rename a file
+mv copy.txt newfile.txt
+
+# Create another folder
+mkdir Backup
+
+# Move a file into the folder
+mv newfile.txt Backup/
+
+# Copy a folder
+cp -r Backup Backup_Copy
+
+# Display the first 10 lines of a file
+head file1.txt
+
+# Display the last 10 lines of a file
+tail file1.txt
+
+# Search for a word inside a file
+grep "Linux" file1.txt
+
+# Find a file
+find . -name "file1.txt"
+
+# Show disk usage
+df -h
+
+# Show folder size
+du -sh .
+
+# Show memory usage
+free -h
+
+# Show current user
+whoami
+
+# Show logged-in users
+who
+
+# Show user information
+id
+
+# Show running processes
+ps
+
+# Show all running processes
+ps -ef
+
+# Show live system processes
+top
+
+# Show IP address
+ip a
+
+# Test internet connectivity
+ping google.com
+
+# Stop the ping command
+# Press Ctrl + C
+
+# View command history
+history
+
+# Clear the terminal
+clear
+
+# Return to previous directory
+cd ..
+
+# Remove a file
+rm file2.txt
+
+# Remove an empty folder
+rmdir Backup
+
+# Remove a folder with files
+rm -r Backup_Copy
+
+# Make a file executable
+chmod +x file1.txt
+
+# Change file permissions
+chmod 777 file1.txt
+
+# Show file permissions
+ls -l
+
+# Read the manual for ls
+man ls
+
+# Quick help for ls
+ls --help
